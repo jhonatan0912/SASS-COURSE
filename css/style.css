@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: steelblue;
+}
+.nav__container {
+  width: 90%;
+  margin: 0 auto;
+  height: 70px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+.nav__item {
+  color: white;
+  text-decoration: none;
+}
+.nav__item--active {
+  text-decoration: underline;
+}
+.nav__item:hover {
+  color: black;
+}
+@media (min-width: 764px) {
+  .nav__container {
+    justify-content: flex-end;
+  }
+}
+
+h2 {
+  color: red;
+  font-size: 3rem;
+}
+
+p {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

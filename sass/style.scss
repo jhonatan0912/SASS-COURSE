@@ -1,0 +1,13 @@
+@use 'reset';
+@use 'navbar';
+
+$primary_color: red;
+
+h2 {
+  color: $primary_color;
+  font-size: 3rem;
+}
+
+p {
+  color: $primary_color;
+}
